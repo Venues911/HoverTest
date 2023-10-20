@@ -7,7 +7,6 @@ import static com.codeborne.selenide.Selenide.*;
 public class HoverTest {
     @Test
     void menuHoverTest() {
-
         open("https://github.com/");
      //   $(".header-menu-wrapper").$(byTagAndText("button","Solutions" )).should(appear);
         $(byTagAndText("button", "Solutions")).hover();
