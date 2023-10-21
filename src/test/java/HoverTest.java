@@ -12,6 +12,6 @@ public class HoverTest {
         $(byTagAndText("button", "Solutions")).hover();
         $(byText("Enterprise")).click();
         $(".application-main").shouldHave(text("To build, scale, and deliver secure software."));
-        sleep(2000);
+
     }
 }
